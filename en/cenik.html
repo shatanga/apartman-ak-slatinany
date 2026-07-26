@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing — Apartmán AK Slatiňany</title>
+  <meta name="description" content="Accommodation pricing for Apartmán AK Slatiňany. Rates depend on the number of guests and the length of stay." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css?v=6" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" class="brand">
+          <span class="brand__name">Apartmán AK</span>
+          <span class="brand__sub">Slatiňany</span>
+        </a>
+        <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="galerie.html">Gallery</a></li>
+          <li><a href="vybaveni.html">Amenities</a></li>
+          <li><a href="cenik.html" class="is-active">Pricing</a></li>
+          <li><a href="okoli.html">Nearby</a></li>
+          <li><a href="kontakt.html">Contact</a></li>
+          <li class="nav__lang">
+            <a class="lang-flag" href="../cenik.html" title="Čeština" aria-label="Přepnout do češtiny"><svg class="flag" viewBox="0 0 6 4" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" d="M0 0h6v2H0z"/><path fill="#d7141a" d="M0 2h6v2H0z"/><path fill="#11457e" d="M0 0l3 2-3 2z"/></svg></a>
+            <span class="lang-flag is-active" title="English" aria-label="English"><svg class="flag" viewBox="0 0 60 30" preserveAspectRatio="none" aria-hidden="true"><rect width="60" height="30" fill="#012169"/><path d="M0 0l60 30M60 0L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30M60 0L0 30" stroke="#c8102e" stroke-width="3"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#c8102e" stroke-width="6"/></svg></span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pagehead">
+    <div class="container">
+      <h1>Pricing</h1>
+      <p class="lead"><strong>Prices are listed per person per night. We offer discounted rates for longer stays.</strong></p>
+      <p style="max-width: 66ch; color: var(--ink-soft); margin-top: .5rem;"><strong>Prices during public holidays may vary slightly — available upon request.</strong></p>
+      <p style="max-width: 66ch; color: var(--ink-soft); margin: .35rem 0 0;"><strong>Tax invoices for companies are available upon request.</strong></p>
+      <p style="max-width: 66ch; color: var(--ink-soft); margin: .35rem 0 0;"><strong>As the apartment is newly renovated and fully furnished, a refundable deposit of CZK 3,500 is required as part of the stay. The deposit is payable upon arrival and will be fully refunded upon departure.</strong></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- Price by number of guests and length of stay -->
+      <div class="table-wrap" style="margin-bottom: 34px;">
+        <table class="price">
+          <thead>
+            <tr>
+              <th>Number of guests</th>
+              <th>1 night</th>
+              <th>2–6 nights / night</th>
+              <th>7+ nights / night</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>1 guest</strong></td>
+              <td>800 CZK</td>
+              <td>700 CZK</td>
+              <td>600 CZK</td>
+            </tr>
+            <tr>
+              <td><strong>2–3 guests</strong></td>
+              <td>550 CZK</td>
+              <td>520 CZK</td>
+              <td>480 CZK</td>
+            </tr>
+            <tr>
+              <td><strong>4–5 guests</strong></td>
+              <td>500 CZK</td>
+              <td>480 CZK</td>
+              <td>450 CZK</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="split" style="align-items: start; gap: 40px;">
+        <div>
+          <h3 style="color: var(--sage-deep);">What's included</h3>
+          <ul class="info-list">
+            <li>Full use of the apartment's amenities</li>
+            <li>Bed linen and towels</li>
+            <li>Utilities (water, electricity, heating)</li>
+            <li>Wi-Fi internet connection</li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="color: var(--sage-deep);">Good to know</h3>
+          <ul class="info-list">
+            <li>Check-in and check-out by arrangement</li>
+            <li>We'll confirm your booking by phone or e-mail</li>
+            <li>Before arrival we'll send you an e-mail or SMS with a four-digit code for the lockbox, where you'll find the keys to the building's main door and to the apartment.</li>
+            <li>Smoking cigarettes, including vaping, is allowed only on the balcony. A fine will be charged for any breach.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="copyright-bar"><span class="cb-brand">© <span id="year">2026</span> Apartmán AK Slatiňany</span><span class="cb-tel">Jana Otčenášková&nbsp;&nbsp;+420 776 637 797</span></div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
