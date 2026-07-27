@@ -1,0 +1,21 @@
+Nazev web stranky:
+Apartman AK Slatinany
+
+
+
+
+
+Kontakt:
+
+Jana Otcenaskova
+tel: +420 776 637 797
+email: apartman-slatinany@seznam.cz
+
+adresa: 
+
+Druzstevni 725
+538 21 Slatinany
+
+
+zde je odkaz pro vlozeni mapy: 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2569.1164166894764!2d15.8164572764277!3d49.91538982574498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470db63d4f11700b%3A0xfccb1a9419da85ae!2zRHJ1xb5zdGV2bsOtIDcyNSwgNTM4IDIxIFNsYXRpxYhhbnk!5e0!3m2!1sen!2scz!4v1784929742133!5m2!1sen!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>

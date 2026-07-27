@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ceník — Apartmán AK Slatiňany</title>
+  <meta name="description" content="Ceník ubytování v apartmánu AK Slatiňany. Ceny se liší podle počtu osob a délky pobytu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=6" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Hlavní navigace">
+        <a href="index.html" class="brand">
+          <span class="brand__name">Apartmán AK</span>
+          <span class="brand__sub">Slatiňany</span>
+        </a>
+        <button class="nav__toggle" aria-label="Otevřít menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__links">
+          <li><a href="index.html">Úvod</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="vybaveni.html">Vybavení</a></li>
+          <li><a href="cenik.html" class="is-active">Ceník</a></li>
+          <li><a href="okoli.html">Okolí</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li class="nav__lang">
+            <span class="lang-flag is-active" title="Čeština" aria-label="Čeština"><svg class="flag" viewBox="0 0 6 4" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" d="M0 0h6v2H0z"/><path fill="#d7141a" d="M0 2h6v2H0z"/><path fill="#11457e" d="M0 0l3 2-3 2z"/></svg></span>
+            <a class="lang-flag" href="en/cenik.html" title="English" aria-label="Switch to English"><svg class="flag" viewBox="0 0 60 30" preserveAspectRatio="none" aria-hidden="true"><rect width="60" height="30" fill="#012169"/><path d="M0 0l60 30M60 0L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30M60 0L0 30" stroke="#c8102e" stroke-width="3"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#c8102e" stroke-width="6"/></svg></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pagehead">
+    <div class="container">
+      <h1>Ceník</h1>
+      <ul class="info-list" style="max-width: 76ch; margin-top: 10px;">
+        <li>Ceny jsou uvedeny za osobu/noc. Při delších pobytech, případně pro firmy nabídneme individuální ceny.</li>
+        <li>Ceny o svátcích se mohou mírně lišit — poskytneme je na dotaz.</li>
+        <li>Vystavení daňového dokladu pro firmy samozřejmostí.</li>
+        <li>Jelikož je apartmán po kompletní rekonstrukci a nově zařízený, je součástí ubytování vratná kauce 3 500 Kč. Kauce je splatná při příjezdu a vrátíme vám ji v plné výši při předání apartmánu v den odjezdu.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- Ceník podle počtu osob a délky pobytu -->
+      <div class="table-wrap" style="margin-bottom: 34px;">
+        <table class="price">
+          <thead>
+            <tr>
+              <th>Počet osob</th>
+              <th>1–2 noci</th>
+              <th>3 noci a více</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>1 osoba</strong></td>
+              <td>1 600 Kč</td>
+              <td>1 400 Kč</td>
+            </tr>
+            <tr>
+              <td><strong>2–3 osoby</strong></td>
+              <td>800 Kč</td>
+              <td>700 Kč</td>
+            </tr>
+            <tr>
+              <td><strong>4–5 osob</strong></td>
+              <td>650 Kč</td>
+              <td>550 Kč</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="split" style="align-items: start; gap: 40px;">
+        <div>
+          <h3 style="color: var(--sage-deep);">Co je v ceně</h3>
+          <ul class="info-list">
+            <li>Kompletní vybavení apartmánu</li>
+            <li>Povlečení a ručníky</li>
+            <li>Spotřeba energií (voda, elektřina, topení)</li>
+            <li>Wi-Fi připojení k internetu</li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="color: var(--sage-deep);">Dobré vědět</h3>
+          <ul class="info-list">
+            <li>Nástup a odjezd dle domluvy</li>
+            <li>Rezervaci potvrdíme telefonicky nebo e‑mailem</li>
+            <li>Před příjezdem Vám zašleme e‑mail nebo SMS se čtyřmístným kódem od schránky, kde najdete klíče od hlavních dveří domu i apartmánu.</li>
+            <li>Kouření cigaret včetně Vape je dovoleno pouze na balkóně. Za porušení zákazu bude vystavena pokuta.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="copyright-bar"><span class="cb-brand">© <span id="year">2026</span> Apartmán AK Slatiňany</span><span class="cb-tel">Jana Otčenášková&nbsp;&nbsp;+420 776 637 797</span></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

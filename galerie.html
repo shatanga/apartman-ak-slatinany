@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galerie — Apartmán AK Slatiňany</title>
+  <meta name="description" content="Fotogalerie apartmánu AK Slatiňany — ložnice, obývací pokoj, kuchyně a koupelna." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=6" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Hlavní navigace">
+        <a href="index.html" class="brand">
+          <span class="brand__name">Apartmán AK</span>
+          <span class="brand__sub">Slatiňany</span>
+        </a>
+        <button class="nav__toggle" aria-label="Otevřít menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__links">
+          <li><a href="index.html">Úvod</a></li>
+          <li><a href="galerie.html" class="is-active">Galerie</a></li>
+          <li><a href="vybaveni.html">Vybavení</a></li>
+          <li><a href="cenik.html">Ceník</a></li>
+          <li><a href="okoli.html">Okolí</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li class="nav__lang">
+            <span class="lang-flag is-active" title="Čeština" aria-label="Čeština"><svg class="flag" viewBox="0 0 6 4" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" d="M0 0h6v2H0z"/><path fill="#d7141a" d="M0 2h6v2H0z"/><path fill="#11457e" d="M0 0l3 2-3 2z"/></svg></span>
+            <a class="lang-flag" href="en/galerie.html" title="English" aria-label="Switch to English"><svg class="flag" viewBox="0 0 60 30" preserveAspectRatio="none" aria-hidden="true"><rect width="60" height="30" fill="#012169"/><path d="M0 0l60 30M60 0L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30M60 0L0 30" stroke="#c8102e" stroke-width="3"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#c8102e" stroke-width="6"/></svg></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pagehead">
+    <div class="container">
+      <p class="eyebrow">Fotogalerie</p>
+      <h1>Prohlédněte si apartmán</h1>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+
+      <div class="gallery-filters">
+        <button class="filter-btn is-active" data-filter="all">Vše</button>
+        <button class="filter-btn" data-filter="loznice">Ložnice</button>
+        <button class="filter-btn" data-filter="obyvak">Obývací pokoj</button>
+        <button class="filter-btn" data-filter="kuchyne">Kuchyně</button>
+        <button class="filter-btn" data-filter="koupelna">Koupelna &amp; WC</button>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Ložnice -->
+        <figure class="gitem" data-cat="loznice">
+          <a data-lightbox data-full="fotky/IMG_20260723_090029.jpg" data-alt="Ložnice s manželskou postelí">
+            <img src="fotky/IMG_20260723_090029.jpg" alt="Ložnice s manželskou postelí" loading="lazy" />
+          </a>
+        </figure>
+        <figure class="gitem" data-cat="loznice">
+          <a data-lightbox data-full="fotky/IMG_20260723_090150.jpg" data-alt="Ložnice v zelených tónech">
+            <img src="fotky/IMG_20260723_090150.jpg" alt="Ložnice v zelených tónech s komodou" loading="lazy" />
+          </a>
+        </figure>
+        <figure class="gitem" data-cat="loznice">
+          <a data-lightbox data-full="fotky/IMG_20260723_090108.jpg" data-alt="Ložnice s přistýlkami">
+            <img src="fotky/IMG_20260723_090108.jpg" alt="Ložnice s přistýlkami" loading="lazy" />
+          </a>
+        </figure>
+        <figure class="gitem" data-cat="loznice">
+          <a data-lightbox data-full="fotky/IMG_20260723_085444.jpg" data-alt="Druhá ložnice">
+            <img src="fotky/IMG_20260723_085444.jpg" alt="Druhá ložnice se dvěma lůžky" loading="lazy" />
+          </a>
+        </figure>
+        <figure class="gitem" data-cat="loznice">
+          <a data-lightbox data-full="fotky/IMG_20260723_085509.jpg" data-alt="Ložnice se dvěma lůžky">
+            <img src="fotky/IMG_20260723_085509.jpg" alt="Ložnice se dvěma oddělenými lůžky" loading="lazy" />
+          </a>
+        </figure>
+        <figure class="gitem" data-cat="loznice">
+          <a data-lightbox data-full="fotky/IMG_20260723_085522.jpg" data-alt="Ložnice, pohled k oknu">
+            <img src="fotky/IMG_20260723_085522.jpg" alt="Ložnice, pohled k oknu do zeleně" loading="lazy" />
+          </a>
+        </figure>
+        <figure class="gitem" data-cat="loznice">
+          <a data-lightbox data-full="fotky/IMG_20260723_085553.jpg" data-alt="Ložnice s lůžky">
+            <img src="fotky/IMG_20260723_085553.jpg" alt="Ložnice s lůžky a nočními lampičkami" loading="lazy" />
+          </a>
+        </figure>
+
+        <!-- Obývací pokoj -->
+        <figure class="gitem" data-cat="obyvak">
+          <a data-lightbox data-full="fotky/IMG_20260723_090507.jpg" data-alt="Obývací pokoj s jídelnou">
+            <img src="fotky/IMG_20260723_090507.jpg" alt="Obývací pokoj s jídelním koutem a pohovkou" loading="lazy" />
+          </a>
+        </figure>
+        <figure class="gitem" data-cat="obyvak">
+          <a data-lightbox data-full="fotky/IMG_20260723_090541.jpg" data-alt="Pohovka a jídelní kout">
+            <img src="fotky/IMG_20260723_090541.jpg" alt="Pohovka a jídelní kout" loading="lazy" />
+          </a>
+        </figure>
+        <figure class="gitem" data-cat="obyvak">
+          <a data-lightbox data-full="fotky/IMG_20260723_090657.jpg" data-alt="Jídelní stůl u okna">
+            <img src="fotky/IMG_20260723_090657.jpg" alt="Jídelní stůl pro šest osob u okna" loading="lazy" />
+          </a>
+        </figure>
+        <figure class="gitem" data-cat="obyvak">
+          <a data-lightbox data-full="fotky/IMG_20260723_090735.jpg" data-alt="Obývací pokoj s knihovnou">
+            <img src="fotky/IMG_20260723_090735.jpg" alt="Obývací pokoj s knihovnou a křeslem" loading="lazy" />
+          </a>
+        </figure>
+
+        <!-- Kuchyně -->
+        <figure class="gitem" data-cat="kuchyne">
+          <a data-lightbox data-full="fotky/IMG_20260723_090947.jpg" data-alt="Vybavená kuchyně">
+            <img src="fotky/IMG_20260723_090947.jpg" alt="Plně vybavená kuchyňská linka" loading="lazy" />
+          </a>
+        </figure>
+
+        <!-- Koupelna & WC -->
+        <figure class="gitem" data-cat="koupelna">
+          <a data-lightbox data-full="fotky/IMG_20260723_091355.jpg" data-alt="Koupelna s umyvadlem">
+            <img src="fotky/IMG_20260723_091355.jpg" alt="Moderní koupelna s umyvadlem a zrcadlem" loading="lazy" />
+          </a>
+        </figure>
+        <figure class="gitem" data-cat="koupelna">
+          <a data-lightbox data-full="fotky/IMG_20260723_091420.jpg" data-alt="Sprchový kout">
+            <img src="fotky/IMG_20260723_091420.jpg" alt="Prostorný sprchový kout" loading="lazy" />
+          </a>
+        </figure>
+        <figure class="gitem" data-cat="koupelna">
+          <a data-lightbox data-full="fotky/IMG_20260723_091244.jpg" data-alt="Samostatné WC">
+            <img src="fotky/IMG_20260723_091244.jpg" alt="Samostatné WC s madly" loading="lazy" />
+          </a>
+        </figure>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Zavřít">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" aria-label="Předchozí">&#8249;</button>
+    <img src="" alt="" />
+    <button class="lightbox__nav lightbox__nav--next" aria-label="Další">&#8250;</button>
+    <div class="lightbox__counter"></div>
+  </div>
+
+  <div class="copyright-bar"><span class="cb-brand">© <span id="year">2026</span> Apartmán AK Slatiňany</span><span class="cb-tel">Jana Otčenášková&nbsp;&nbsp;+420 776 637 797</span></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
