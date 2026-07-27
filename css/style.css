@@ -304,6 +304,11 @@ table.price td strong { color: var(--sage-deep); }
 .map-embed { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid var(--line); }
 .map-embed iframe { display: block; width: 100%; height: 100%; min-height: 360px; border: 0; }
 
+/* Kalendář dostupnosti */
+.calendar-embed { max-width: 840px; margin: 0 auto; border: 1px solid var(--line); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm); background: var(--surface); }
+.calendar-embed iframe { display: block; width: 100%; height: 600px; border: 0; }
+@media (max-width: 560px) { .calendar-embed iframe { height: 520px; } }
+
 /* ---------- CTA pruh ---------- */
 .cta {
   background: linear-gradient(120deg, var(--sage-dark), var(--sage-deep));
@@ -339,7 +344,7 @@ table.price td strong { color: var(--sage-deep); }
   .teaser-grid { grid-auto-rows: 160px; }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 920px) {
   .nav__toggle { display: block; }
   .nav__links {
     position: absolute; top: 62px; left: 0; right: 0;

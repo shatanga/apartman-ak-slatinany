@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rezervace — Apartmán AK Slatiňany</title>
+  <meta name="description" content="Rezervace pobytu v apartmánu AK Slatiňany — kalendář dostupnosti a nezávazná poptávka." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=7" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Hlavní navigace">
+        <a href="index.html" class="brand">
+          <span class="brand__name">Apartmán AK</span>
+          <span class="brand__sub">Slatiňany</span>
+        </a>
+        <button class="nav__toggle" aria-label="Otevřít menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__links">
+          <li><a href="index.html">Úvod</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="vybaveni.html">Vybavení</a></li>
+          <li><a href="cenik.html">Ceník</a></li>
+          <li><a href="okoli.html">Okolí</a></li>
+          <li><a href="rezervace.html" class="is-active">Rezervace</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li class="nav__lang">
+            <span class="lang-flag is-active" title="Čeština" aria-label="Čeština"><svg class="flag" viewBox="0 0 6 4" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" d="M0 0h6v2H0z"/><path fill="#d7141a" d="M0 2h6v2H0z"/><path fill="#11457e" d="M0 0l3 2-3 2z"/></svg></span>
+            <a class="lang-flag" href="en/rezervace.html" title="English" aria-label="Switch to English"><svg class="flag" viewBox="0 0 60 30" preserveAspectRatio="none" aria-hidden="true"><rect width="60" height="30" fill="#012169"/><path d="M0 0l60 30M60 0L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30M60 0L0 30" stroke="#c8102e" stroke-width="3"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#c8102e" stroke-width="6"/></svg></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pagehead">
+    <div class="container">
+      <p class="eyebrow">Kalendář a poptávka</p>
+      <h1>Rezervace</h1>
+      <p class="lead">Podívejte se do kalendáře na dostupnost a pošlete nám nezávaznou poptávku. Ozveme se vám s potvrzením volného termínu a cenou.</p>
+    </div>
+  </section>
+
+  <!-- Kalendář dostupnosti -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="calendar-embed">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FPrague&showPrint=0&mode=MONTH&src=ZW4tZ2IuY3plY2gjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230b8043" style="border:0" width="800" height="600" frameborder="0" scrolling="no" title="Kalendář dostupnosti"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Poptávkový formulář -->
+  <section class="section section--alt section--tight">
+    <div class="container">
+      <div class="form-wrap">
+        <div class="center">
+          <h2>Nezávazná poptávka</h2>
+          <p class="lead" style="margin: 0 auto;">Vyplňte formulář a my se vám co nejdříve ozveme s potvrzením volného termínu a cenou.</p>
+        </div>
+        <form class="inquiry-form" action="https://formsubmit.co/apartman-ak-slatinany@seznam.cz" method="POST">
+          <input type="hidden" name="_subject" value="Nová poptávka – Apartmán AK Slatiňany">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none">
+          <div class="form-grid">
+            <div class="field">
+              <label for="f-jmeno">Jméno a příjmení *</label>
+              <input id="f-jmeno" name="Jméno a příjmení" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="f-email">E‑mail *</label>
+              <input id="f-email" name="E-mail" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="f-telefon">Telefon</label>
+              <input id="f-telefon" name="Telefon" type="tel" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="f-osoby">Počet osob</label>
+              <input id="f-osoby" name="Počet osob" type="number" min="1" max="5" inputmode="numeric" placeholder="1–5">
+            </div>
+            <div class="field">
+              <label for="f-od">Termín pobytu od *</label>
+              <input id="f-od" name="Termín od" type="date" required>
+            </div>
+            <div class="field">
+              <label for="f-do">Termín pobytu do *</label>
+              <input id="f-do" name="Termín do" type="date" required>
+            </div>
+            <div class="field">
+              <label for="f-prijezd">Předpokládaný čas příjezdu</label>
+              <input id="f-prijezd" name="Předpokládaný čas příjezdu" type="time">
+            </div>
+            <div class="field">
+              <label for="f-adresa">Adresa</label>
+              <input id="f-adresa" name="Adresa" type="text" autocomplete="street-address">
+            </div>
+            <div class="field field--full">
+              <label for="f-pozn">Poznámka</label>
+              <textarea id="f-pozn" name="Poznámka" rows="4" placeholder="Dotazy, speciální požadavky…"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn--primary">Odeslat poptávku</button>
+          <p class="form-note">Pole označená * jsou povinná. Odesláním formuláře souhlasíte se zpracováním uvedených údajů za účelem vyřízení vaší poptávky.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="copyright-bar"><span class="cb-brand">© <span id="year">2026</span> Apartmán AK Slatiňany</span><span class="cb-tel">Jana Otčenášková&nbsp;&nbsp;+420 776 637 797</span></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
