@@ -1,0 +1,7 @@
+# Soubory, ktere se nesmi publikovat na web
+.git
+.claude
+.gitignore
+.assetsignore
+info.txt
+README.md
